@@ -1,0 +1,28 @@
+
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+[[mods]]
+modId="vssmp"
+version="${file.jarVersion}"
+displayName="VSSMP"
+logoFile=""
+credits="Turbina, Cutey61665"
+authors="Turbina, Cutey61665"
+
+description='''
+A mod for the VSSMP.
+'''
+
+[[dependencies.vssmp]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.vssmp]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"

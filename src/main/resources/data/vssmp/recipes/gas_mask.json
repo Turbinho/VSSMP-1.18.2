@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YXY",
+    "XZX",
+    "ZZZ"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    },
+    "Y": {
+      "item": "minecraft:glass_pane"
+    },
+    "Z": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "vssmp:gas_mask"
+  }
+}
